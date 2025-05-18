@@ -4,7 +4,7 @@
   "description": "SFitness responsive website built using HTML5, CSS3, JavaScript. Grid, Flexbox, animations used for the layout of page.",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build $(pwd)/index.html",
     "watch:sass": "sass --watch sass/main.scss:css/main.css",
     "prefix:css": "postcss css/main.css --use autoprefixer -o css/main.css"
   },
