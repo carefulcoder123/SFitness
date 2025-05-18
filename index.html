@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="SFitness reponsive webite build using HTML5, CSS3 and Javascript The complete layout of the page is build using grid layout and flexbox with some cool animations." />
+  <title>SFitness - place for your fitness goals</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+  <link rel="stylesheet" href="fonts/stylesheet.css" media="screen" />
+  <link rel="stylesheet" href="css/main.css" media="screen" />
+  <link rel="stylesheet" href="style.css" media="screen" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header" id="home">
+    <div class="container">
+      <nav class="header-navigation" aria-label="navigation">
+        <div class="logo"><span class="yellow">S</span>Fitness</div>
+
+        <img src="img/nav-icon.svg" alt="navigation icon" class="nav-icon" width="30" height="30" />
+
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#courses">Courses</a>
+          </li>
+          <li>
+            <a href="#trainers">Trainers</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="section-hero">
+      <div class="container hero-box">
+        <div class="hero-content margin-bottom">
+
+          <h1 class="heading heading--1 margin-bottom" style="position:relative; top: 20px;">
+            A place for your fitness goals
+          </h1>
+          <p class="description">
+            We Offer Functional Training, Plyometric Boxes, Aerobics classes,
+            TRX And Much More
+          </p>
+        </div>
+        <div class="btn-group">
+          <a href="members.php"><button class="btn btn__primary margin-right margin-bottom"
+              style="position: relative; top: 35px;">Join us</button></a>
+
+          <a href="#courses"><button class="btn btn__secondary" style="position: relative; top: 35px;">Our
+              services</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION ABOUT -->
+    <section class="section-about" id="about">
+      <div class="about-box container">
+        <div class="about-box__content" data-aos="fade-up">
+          <h2 class="heading heading--2">
+            About <span class="yellow">S</span>Fitness
+          </h2>
+          <p style="text-align: justify;">
+
+            Welcome to SFitness! Our mission is to empower individuals on their fitness journey, guiding them towards
+            healthier and happier lives. Since [year], we've fostered a welcoming and motivating environment for fitness
+            enthusiasts of all levels. Our vision is to create a supportive community that inspires positive
+            transformations in both body and mind. With expert trainers, state-of-the-art facilities, and a variety of
+            classes, SFitness caters to everyone. Join our SFitness family today, and experience the power of fitness to
+            unlock your potential. Visit us for a free trial session and be a part of the ultimate fitness destination.
+            Together, let's achieve greatness.
+          </p>
+          <!-- <a href="#" class="link-button">Read More &rarr;</a> -->
+        </div>
+        <figure class="about-box__image" data-aos="fade-up">
+          <img src="img/about-img-1.jpg" alt="about-image-one" width="350" height="233" />
+          <img src="img/about-img-2.jpg" alt="about-image-twwo" width="350" height="233" />
+          <img src="img/about-img-3.jpg" alt="about-image-three" width="420" height="280" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- SECTION COURSES -->
+    <section class="section-courses" id="courses">
+      <div class="container courses-box" data-aos="fade-up">
+        <header class="courses-heading">
+          <h2 class="heading heading--2 underline">Our Courses</h2>
+          <p style="text-align: justify;">
+            Welcome to SFitness Courses! Elevate your fitness journey with our diverse range of courses designed to
+            cater to all fitness levels and interests. From intense CrossFit workouts to mastering gymnastics skills and
+            the art of boxing, our expert trainers are here to guide you toward your fitness goals. Join us to
+            experience a transformative fitness experience like never before.
+          </p>
+        </header>
+
+        <article class="courses-content">
+          <div class="class-card">
+            <img class="class-card__img" src="./img/courses-bodybuilding.jpg" alt="body building course" width="550"
+              height="550" />
+
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>
+                  Sculpt and build your physique with our bodybuilding course, focusing on strength training and muscle
+                  development for a strong and toned body.
+                </p>
+
+
+              </div>
+            </div>
+
+            <div class="class-card__title">Body Building</div>
+          </div>
+
+          <div class="class-card">
+            <img class="class-card__img" src="./img/courses-crossfit.jpg" alt="cross fit course" width="550"
+              height="550" />
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>
+                  Experience high-intensity functional workouts that combine cardio, weightlifting, and gymnastics,
+                  designed to improve overall fitness and athleticism.
+                </p>
+
+
+              </div>
+            </div>
+            <div class="class-card__title">Cross Fit</div>
+          </div>
+
+          <div class="class-card">
+            <img class="class-card__img" src="./img/courses-gymnastic.jpg" alt="gymnastic course" width="550"
+              height="550" />
+
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>
+                  Master agility, flexibility, and body control through our gymnastics course, where you'll learn
+                  various skills and techniques in a supportive environment.
+                </p>
+
+
+              </div>
+            </div>
+
+            <div class="class-card__title">Gymnastic</div>
+          </div>
+
+          <div class="class-card">
+            <img class="class-card__img" src="./img/courses-fitness.jpg" alt="fitness course" width="550"
+              height="550" />
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>
+                  Our general fitness course offers diverse workouts, catering to all fitness levels, helping you
+                  achieve your health and wellness goals with a mix of exercises.
+                </p>
+
+
+              </div>
+            </div>
+            <div class="class-card__title">Fitness</div>
+          </div>
+
+          <div class="class-card">
+            <img class="class-card__img" src="./img/courses-TRX.jpg" alt="fitness course" width="550" height="550" />
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>
+                  Utilize suspension training with our TRX course, which leverages bodyweight exercises to enhance
+                  strength, stability, and core engagement.
+                </p>
+
+
+              </div>
+            </div>
+            <div class="class-card__title">TRX</div>
+          </div>
+
+          <div class="class-card">
+            <img class="class-card__img" src="./img/courses-boxing.jpg" alt="fitness course" width="550" height="550" />
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>
+                  Learn the art of boxing, improve your self-defense skills, and enhance cardiovascular endurance
+                  through our dynamic boxing classes led by experienced trainers.
+                </p>
+
+
+              </div>
+            </div>
+            <div class="class-card__title">Boxing</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION OFFER -->
+    <section class="section-offer" id="offer">
+      <div class="offer-box">
+        <div class="offer" data-aos="fade-up">
+          <h2 class="heading heading--2 margin-bottom">
+            Special offer this winter get full Benefits for year with 20%
+            discount.
+          </h2>
+          <p class="margin-bottom">
+            Embrace the season with our limited-time offer. Join SFitness now for just 4800 Rs/month (previously 6000
+            Rs/month) and experience the ultimate fitness journey. Don't miss out on this fantastic deal! Offer valid
+            until 31st August.
+          </p>
+          <a href="members.php"><button class="btn btn__primary">Become a member</button></a>
+        </div>
+
+        <div class="offer-img"></div>
+      </div>
+    </section>
+
+    <!-- SECTION COACHES -->
+    <section class="section-coaches" id="trainers">
+      <div class="container coaches-box" data-aos="fade-up">
+        <header class="coache-heading">
+          <h2 class="heading heading--2 underline margin-bottom">
+            OUR FITNESS COACHES
+          </h2>
+          <p>
+
+            At SFitness, our trainers are experts in bodybuilding, cardio, and overall fitness coaching. They design
+            personalized workout plans to help you achieve your goals effectively. From muscle development to
+            cardiovascular endurance, our trainers provide guidance and support throughout your fitness journey. Join us
+            to experience a transformative and holistic approach to fitness with our dedicated team of trainers.
+          </p>
+        </header>
+
+        <article class="coache-content">
+          <div class="c-card">
+            <img src="img/bodybuilding-expert.jpg" alt="coache one" class="c-card__img" width="550" height="550" />
+
+            <div class="overlay">
+              <img src="./img/logo-whatsapp.svg" alt="whatsapp-icon" width="30" height="30" />
+
+              <img src="./img/logo-facebook.svg" alt="facebook-icon" width="30" height="30" />
+
+              <img src="./img/logo-instagram.svg" alt="instagram-icon" width="30" height="30" />
+
+              <img src="./img/logo-twitter.svg" alt="twitter-icon" width="30" height="30" />
+            </div>
+
+            <div class="c-card__content">
+              <p class="c-name">MARK BERTUL</p>
+              <p class="c-title">Body Building</p>
+            </div>
+          </div>
+
+          <div class="c-card">
+            <img src="img/cardio-expert.jpg" alt="coache one" class="c-card__img" width="550" height="550" />
+
+            <div class="overlay">
+              <img src="./img/logo-whatsapp.svg" alt="whatsapp-icon" width="30" height="30" />
+
+              <img src="./img/logo-facebook.svg" alt="facebook-icon" width="30" height="30" />
+
+              <img src="./img/logo-instagram.svg" alt="instagram-icon" width="30" height="30" />
+
+              <img src="./img/logo-twitter.svg" alt="twitter-icon" width="30" height="30" />
+            </div>
+
+            <div class="c-card__content">
+              <p class="c-name">serio mike</p>
+              <p class="c-title">Cardio Expert</p>
+            </div>
+          </div>
+
+          <div class="c-card">
+            <img src="img/fitness-expert.jpg" alt="coache three" class="c-card__img" width="550" height="550" />
+            <div class="overlay">
+              <img src="./img/logo-whatsapp.svg" alt="whatsapp-icon" width="30" height="30" />
+
+              <img src="./img/logo-facebook.svg" alt="facebook-icon" width="30" height="30" />
+
+              <img src="./img/logo-instagram.svg" alt="instagram-icon" width="30" height="30" />
+
+              <img src="./img/logo-twitter.svg" alt="twitter-icon" width="30" height="30" />
+            </div>
+
+            <div class="c-card__content">
+              <p class="c-name">SVEN MIEKE</p>
+              <p class="c-title">Fitness Coach</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="section-footer" id="footer">
+    <div class="footer-box container">
+      <div class="contact-details">
+        <h2 class="margin-bottom"><span class="yellow">S</span>Fitness</h2>
+
+        <ul class="contact-data">
+          <li class="location">5th Floor, Royal complex, Shendra MIDC, Chhatrapati SambhajiNagar</li>
+          <li class="phone">+91 987 345 7531</li>
+          <li class="email">SFitness@gmail.com</li>
+          <li class="social">
+            <img src="./img/logo-whatsapp.svg" alt="whatsapp icon" width="35" height="35" />
+
+            <img src="./img/logo-facebook.svg" alt="facebook icon" width="35" height="35" />
+
+            <img src="./img/logo-instagram.svg" alt="instagram icon" width="35" height="35" />
+
+            <img src="./img/logo-twitter.svg" alt="twitter icon" width="35" height="35" />
+          </li>
+        </ul>
+      </div>
+
+      <nav class="footer-nav" aria-label="navigation">
+        <div class="nav-name">Quick Links</div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#trainers">Trainers</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-hours">
+        <h3>Opening Hours</h3>
+        <br>
+        <p>Mon-Fri: 6am - 10pm</p>
+        <br>
+        <p>Sat-Sun: 8am - 8pm</p>
+
+        <br><br>
+        <blockquote>
+          <b><i>Unlock your potential with SFitness – Where strength meets community.</i> </b>
+        </blockquote>
+      </div>
+
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init( {once:true});
+  </script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
